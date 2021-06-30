@@ -14,9 +14,9 @@ for n in range(9, 12):
         
         soup = bs4.BeautifulSoup(site.text, "lxml")
         
-        imeChampa = soup.select("h3 > a")
+        imeObjekta = soup.select("h3 > a")
 
-        for item in imeChampa:
+        for item in imeObjekta:
             names.append(item.text)
 
 while(names != []):
