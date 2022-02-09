@@ -1,4 +1,3 @@
-# leagueOfLegendsPatchScrape
 A script which finds most altered champions, items and spells in League of Legends.
 
 It iterates through "https://na.leagueoflegends.com/en-us/news/game-updates/" for every patch avaliable and finds the name of every changed, removed or updated object.
